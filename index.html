@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link href="css/jquery-ui.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme CSS -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+
+        <link href="css/main.css" rel="stylesheet">
+
+        <!--<link rel="stylesheet" href="js/datepicker/css/redmond/jquery-ui-1.10.1.custom.min.css" />-->
+
+        <title>Blue</title>
+    </head>
+    <body onload="" style="overflow: hidden;">
+
+        <div class="btn-primary pzlcontent pzl1 d-none">
+
+        </div>
+
+        <div class="pzlcontent pzl2 d-none">
+            <input type="button" class="btn btn-primary border btnHero"/>
+
+            <span class="p-2 bg-primary text-white blk1"></span>
+            <span class="p-2 bg-primary text-white blk2"></span>
+            <span class="p-2 bg-primary text-white blk3"></span>
+            <span class="p-2 bg-primary text-white blk4"></span>
+            <span class="p-2 bg-primary text-white blk5"></span>
+        </div>
+
+        <div class="pzlcontent pzl3 d-none">
+            <input type="button" class="btn btn-primary border btnHero" btnno="1"/>
+            <input type="button" class="btn btn-primary border btnHero btn2 d-none" btnno="2"/>
+            <input type="button" class="btn btn-primary border btnHero btn3 d-none" btnno="3"/>
+            <input type="button" class="btn btn-primary border btnHero btn4 d-none" btnno="4"/>
+            <input type="button" class="btn btn-primary border btnHero btn5 d-none" btnno="5"/>
+            <input type="button" class="btn btn-primary border btnHero btn6 d-none" btnno="6"/>
+            <input type="button" class="btn btn-primary border btnHero btn7 d-none" btnno="7"/>
+        </div>
+
+        <div class="pzlcontent pzl4 d-none">
+            <input type="button" class="btn btn-primary border btnHero" btnno="1"/>
+            <div class="btn btn-success border btnHero btnHero draggable" btnno="4"></div>
+            <div class="btn btn-warning border btnHero btnHero draggable" btnno="5"></div>
+            <div class="btn btn-danger border btnHero btnHero draggable" btnno="6"></div>
+            <div class="btn btn-dark border btnHero btnHero draggable" btnno="7"></div>
+        </div>
+
+        <div class="pzlcontent pzl5 btn-dark d-none">
+            <ul>
+                <li id="draggable" class="ui-state-highlight d-block btn-primary"></li>
+            </ul>
+            <ul id="sortable">
+                <li class="btn-dark ui-state-default"></li>
+                <li class="btn-dark ui-state-default"></li>
+                <li class="btn-dark ui-state-default"></li>
+                <li class="btn-dark ui-state-default"></li>
+            </ul>
+        </div>
+
+        <div class="pzlcontent pzl6 btn-dark d-none">
+            <div id="draggable" class="btn btn-primary border btnHero"></div>
+        </div>
+
+        <div class="pzlcontent pzl7 d-none">
+            <ul id="pzl7Sortable">
+                <li class="btn-primary4 ui-state-default d-block" shadeno="4"></li>
+                <li class="btn-primary6 ui-state-default d-block" shadeno="6"></li>
+                <li class="btn-primary1 ui-state-default d-block" shadeno="1"></li>
+                <li class="btn-primary3 ui-state-default d-block" shadeno="3"></li>
+                <li class="btn-primary5 ui-state-default d-block" shadeno="5"></li>
+                <li class="btn-primary2 ui-state-default d-block" shadeno="2"></li>
+            </ul>
+        </div>
+
+        <div class="pzlcontent pzl8 d-none">
+                <div class="btn-primary ui-state-default d-block block1"></div>
+                <div class="btn-primary ui-state-default d-block block2"></div>
+                <div class="btn-primary ui-state-default d-block block3"></div>
+                <div class="btn-primary ui-state-default d-block block4"></div>
+                <div class="btn-primary ui-state-default d-block block5"></div>
+                <div class="btn-primary ui-state-default d-block block6"></div>
+        </div>
+
+        <div class="pzlcontent pzl9 btn-primary">
+                <i class="fa fa-bug fa-3" aria-hidden="true"></i>
+        </div>
+        
+<!--        <div class="pzlcontent pzl9">
+            <div id="resizable" class="ui-widget-content btn-primary btnHero"></div>
+        </div>
+
+        <div class="pzlcontent pzl3 d-none">
+            <div id="resizable" class="ui-widget-content ui-resizable">
+                <h3 class="ui-widget-header">Resizable</h3>
+                <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>                    
+            </div>
+        </div>-->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <!--        <script src="js/datepicker/js/jquery-ui-1.10.1.custom.min.js"></script>
+                <script src="js/jquery.validate.min.js"></script>
+                <script src="js/additional-methods.js"></script>-->
+
+
+    </body>
+</html>
